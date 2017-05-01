@@ -5,4 +5,4 @@
 |          _ _ _ _|  |_ _ _ _|  |_ _ _ _   _ _|_ _  |_ _ _ _        |           ||
 
 
-blog post url -> https://fsocietylk.wordpress.com/2017/03/21/facebook-phishing/
+blog post url -> https://fsocietylk.wordpress.com/2017/03/21/ransomware/
