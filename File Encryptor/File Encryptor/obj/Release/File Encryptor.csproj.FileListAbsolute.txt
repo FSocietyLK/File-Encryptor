@@ -1,0 +1,12 @@
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\bin\Release\File Encryptor.exe.config
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\bin\Release\File Encryptor.exe.manifest
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\bin\Release\File Encryptor.application
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\bin\Release\File Encryptor.exe
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\bin\Release\File Encryptor.pdb
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\obj\Release\File_Encryptor.Form1.resources
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\obj\Release\File_Encryptor.Properties.Resources.resources
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\obj\Release\File Encryptor.csproj.GenerateResource.Cache
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\obj\Release\File Encryptor.exe.manifest
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\obj\Release\File Encryptor.application
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\obj\Release\File Encryptor.exe
+C:\Users\Omal\documents\visual studio 2013\Projects\File Encryptor\File Encryptor\obj\Release\File Encryptor.pdb

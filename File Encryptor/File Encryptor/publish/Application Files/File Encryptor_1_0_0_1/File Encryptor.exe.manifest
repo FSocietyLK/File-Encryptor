@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="File Encryptor.exe" version="1.0.0.1" publicKeyToken="eb9b1f28da28cd83" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="File Encryptor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="File Encryptor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="File Encryptor.exe" size="219648">
+      <assemblyIdentity name="File Encryptor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Myg7NHDSVaNgTUvtuMwc5Hqtw0CjNtwuKRCh2R7Ylg0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="File Encryptor.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1mM5MV9OeGr23U+7X71LfOuC7WSYFAVCs8HzMhtA1Is=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ALIENWARE-PC\Omal" issuerKeyHash="7f80a23a95fef612a66782c925bd4f13fa362e1e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>V8AP0Ab7Ks8RVZs0UVYGED3wjH7OPIYsXTY3UJ7mYLY=</DigestValue></Reference></SignedInfo><SignatureValue>DScsQqUM8QqTQmIx8U8BVct+K7IyXAJV/Y9VV+uWjAnRy42W8YBTCamOMiYv58J5KwrlJYyNmZZbV/vyEXbksNKS2sBntbg5RsmDwL557CWL6+fzCZrebusz82uVeW6BlJdK+NGy237TfyDA+549uxf5y5+w3WifbHFqy+d82EE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1ms2z3c4WlGwPPUrNEFnhxZT8s2hpXrZmtRRh2ccQv+YdeXKsyF/s0MZ/uycMbhveTfmev6jW4v28/20k/LMk/AaQE7A4tArNvqTaC+TBDrS8G4EU16TJ9tE6JYVyyMWkFF/t1OFHJ3NqBZeYFrijXG7rv0a2TsPPYeW3iOzPI8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b660e69e5037365d2c863cce7e8cf03d10065651349b5511cf2afb06d00fc057" Description="" Url=""><as:assemblyIdentity name="File Encryptor.exe" version="1.0.0.1" publicKeyToken="eb9b1f28da28cd83" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALIENWARE-PC\Omal</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1f3tHSnY/kvit7K1uxISdvqBrVVALQlFDmghMfnuVfY=</DigestValue></Reference></SignedInfo><SignatureValue>d5yBheY1/CR0qW4kHyveZ55dZHXvS7wETCca/ZBtYqlGOv44U4azG38Enb6v72mFJwpk9nRRKNXznjFH5t+KLsYkK+aj+h7mLlYL2SYYRSG4eokJU0ftFTVcGtTxhijI87ey9q5caCHYtMeCbhmDK/8YKXysZok36mNN8CgdCb4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1ms2z3c4WlGwPPUrNEFnhxZT8s2hpXrZmtRRh2ccQv+YdeXKsyF/s0MZ/uycMbhveTfmev6jW4v28/20k/LMk/AaQE7A4tArNvqTaC+TBDrS8G4EU16TJ9tE6JYVyyMWkFF/t1OFHJ3NqBZeYFrijXG7rv0a2TsPPYeW3iOzPI8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQdk+PVOPS6ZxNTs2PjhlO1DANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQBMAEkARQBOAFcAQQBSAEUALQBQAEMAXABPAG0AYQBsMB4XDTE3MDQxNzEzNTUwOVoXDTE4MDQxNzE5NTUwOVowLTErMCkGA1UEAx4iAEEATABJAEUATgBXAEEAUgBFAC0AUABDAFwATwBtAGEAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1ms2z3c4WlGwPPUrNEFnhxZT8s2hpXrZmtRRh2ccQv+YdeXKsyF/s0MZ/uycMbhveTfmev6jW4v28/20k/LMk/AaQE7A4tArNvqTaC+TBDrS8G4EU16TJ9tE6JYVyyMWkFF/t1OFHJ3NqBZeYFrijXG7rv0a2TsPPYeW3iOzPI8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQARFEdXTmfKHB6zioLFAjmJ4TFmo5XQ0Pp0XzUebjbfD4RDobPgV0/+o9lrZTNvt0ljcIfQ8GARma/NJeZ1b9P/HTGlmsV20kNEwsVxi83tGYfx8KxXYIXRed0wDt+GV6ALd1kjCd4tg6nfq+PnmITFPfef9Wr9YW5E/HWarfzqWQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
